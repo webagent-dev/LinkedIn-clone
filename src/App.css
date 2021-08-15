@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family:'Gill Sans',
+     'Gill Sans MT',
+     Calibri,
+     'Trebuchet MS',
+     sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: lightgray;
+}
+.app__wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+}
+.header__container{
+    height: 50px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+.header__wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+.first__section{
+    display: flex;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px 10px;
+}
+.input__container{
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    transition: 0.3s width linear;
+}
+.input__container:hover{
+    width: 180px;
+}
+.header__input{
+    width: 100%;
+    padding: 3px 15px;
+    border: none !important;
+    outline: none !important;
+    font-size: 20px;
+    background: transparent !important;
+}
+.logo{
+    width: 35px;
+    object-fit: contain;
+}
+/*  SECTION__SECTION && HEADER OPTIONS  */
+.second__section{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+}
+
+.headOption{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    transition: 0.5s color ease;
+      cursor: pointer;
+}
+.headOption:hover{
+    color: black;
+}
+.optionIcon{
+    font-size: 18px!important;
+    align-self: center;
+    cursor: pointer;
+}
+.optionTitle{
+    font-size: 15px;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* SIDEBAR COMPONENT */
+.sidebar__container{
+    width: 150px;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: sticky; 
+    bottom: 20px; 
+    margin-top: 55px;
+    /* background: green; */
+
+}
+.profile{
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 2px 1px rgba(255,255,255,0.5);
+}
+.profile__image{
+    width: 100%;
+    height: 50px;
+    object-fit: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    flex: 0.2;
+}
+.profile__avatar{
+    margin-left: 23px;
+    margin-top: -12px;
+}
+.profile__wrapper{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid gray;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.5);
+      background: white;
+      color: gray;
+}
+.profile > h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px 10px;
+    color: black;
+    
+}
+.profile > h4{
+    font-size: 10px;
+    text-align:center;
+    font-weight: 700;
+     font-family:'Gill Sans',
+     'Gill Sans MT',
+     Calibri,
+     'Trebuchet MS',
+     sans-serif;
+     margin-bottom: 10px;
+}
+.view{
+    padding: 5px 10px;
+}
+.view__detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view__detail > p{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+.view__detail > span{
+    color: rgb(42, 116, 145);
+    font-size: 11px;
+    font-weight: 700;
+}
+.details{
+box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.5);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-radius: 3px;
+      margin-top: 10px;
+      border: 1px solid gray;
+      background: white;
+}
+.details > h3{
+    font-size: 13px;
+    padding: 8px ;
+    font-weight: 400!important;
+}
+.details > p{
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* Feed Conponent */
+.feed__container{
+    flex: 0.6;
+    margin-top: 55px;
+    width: 100%;
+}
+.feed__wrapper{
+    background: white;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.form__wrapper{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+form{
+    width: 100%;
+}
+.write{
+    font-size: 20px !important;
+}
+
+.input{
+    width: 100%;
+    padding: 0px 8px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.feed__icon__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 2px 10px;
+}
+.feed__icon{
+    display: flex;
+    padding: 8px 20px;
+    gap: 0.4rem;
+    margin-top: 10px;
+}
+.feed__icon:hover{
+    background: whitesmoke;
+    border-radius: 30px;
+}
+.feed__icon > h4{
+    font-size: 13px;
+}
+.icons{
+    font-size: 13px;
+}
+/*  post Componenet */
+    .post__container{
+        width: 100%;
+        background: white;
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+.post__wrapper{
+    display: flex;
+    gap: 1rem;
+    padding: 2px 10px;
+}
+.post__body{
+    margin-top: 20px;
+    padding: 2px 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+/* lOGIN PAGE */
+.login__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__wrapper{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* background: red; */
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 15px;
+
+}
+.header > h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    /* font-family: arial; */
+    margin-bottom: 10px;
+}
+.head__logo{
+    width:50px;
+}
+
+.input__wrapper > input{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid gray;
+    font-size: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+    outline: none;
+}
+.submit__btn{
+    background: rgb(20, 109, 136) !important;
+    color: white;
+    font-size: 15px!important;
+    margin-top: 5px;
+}
+.input__wrapper > p{
+    margin-top: 15px;
+}
+.color{
+    color: rgb(20, 109, 136);
+}
