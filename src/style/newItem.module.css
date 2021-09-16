@@ -1,0 +1,25 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+.news:hover{
+    background: whitesmoke;
+}
+.new__wrapper{
+    display: flex;
+    align-items: center;
+}
+.new__wrapper > p{
+    font-weight: 700;
+    font-size: 11px!important;
+    color: black!important;
+    cursor: pointer;
+}
+.news > small{
+    font-size: 8px;
+    color: gray;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 0px 18px;
+}

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: .2rem;
+    padding: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.container:hover{
+    background: lightgray;
+    padding: 3px;
+    border-radius: 20px;
+}
+.container > h3{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: monospace;
+    color: gray;
+    margin-bottom: 4px;
+}

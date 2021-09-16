@@ -1,0 +1,5 @@
+   <div className="wrapper">
+           <LeftSide />
+               <Main />
+              <RightSide />
+           </div>

@@ -1,0 +1,13 @@
+.item{
+    border: 2px solid gray;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: monospace;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: normal;
+    color: gray;
+    cursor: pointer;
+}
